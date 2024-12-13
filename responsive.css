@@ -2,4 +2,15 @@
     body{
         background: url(./ip-address-tracker-master/images/pattern-bg-desktop.png) no-repeat center center;
     }
+    .main-context{
+        flex-direction: row;
+        text-align: unset;
+    }
+    .main-context div{
+        border-right: 1px solid #ddd;
+        padding-right: 10px;
+    }
+    .main-context div:last-child{
+        border-right: none;
+    }
 }

@@ -8,6 +8,7 @@ body{
     color: white;
     background: url(../ip-address-tracker-master/images/pattern-bg-mobile.png) no-repeat center center;
     background-size: cover;
+    font-family: 'Poppins' sans-serif;
 }
 .hero-section{
     display: flex;
@@ -63,7 +64,19 @@ input{
     margin-bottom: -8rem;
     gap: 1.5rem;
     margin-top: 1rem;
+    flex-direction: column;
+    text-align: center;
     /* margin: 0 auto; */
     margin-left: auto;
     margin-right: auto;
 }
+input::placeholder{
+    color: #999;
+}
+
+.main-context div p {
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+/* Could not find a map let's just add Functionality to it off to the Js */
+/* now lets find some map to use before we add functionality to it */
