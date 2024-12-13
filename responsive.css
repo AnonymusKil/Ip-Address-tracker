@@ -1,0 +1,5 @@
+@media (min-width: 840px) {
+    body{
+        background: url(./ip-address-tracker-master/images/pattern-bg-desktop.png) no-repeat center center;
+    }
+}

@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    box-sizing: content-box;
+    margin: 0;
+}
+body{
+    /* background-color: black; */
+    color: white;
+    background: url(../ip-address-tracker-master/images/pattern-bg-mobile.png) no-repeat center center;
+    background-size: cover;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+   
+}
+.hero-section p{
+       /* color: rgb(224, 168, 168); */
+       padding: 20px;
+       text-align: center;
+    
+}
+.ip-foem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jah {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    padding:  10px;
+    /* border-radius: 10px; */
+   
+}
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    background-color: black;
+    padding: 0 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+input{
+    padding:10px;
+    border-radius: 4px 0 4px;
+    outline: transparent;
+    width: 220px;
+}
+.main-context{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    color: black;
+    max-width: 600px;
+    margin-bottom: -8rem;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
